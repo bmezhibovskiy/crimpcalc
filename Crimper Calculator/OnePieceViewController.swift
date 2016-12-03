@@ -11,6 +11,8 @@ import UIKit
 class OnePieceViewController: UIViewController {
     
     @IBOutlet weak var hoseTypeTextField: UITextField!
+    @IBOutlet weak var dashSizeTextField: UITextField!
+    @IBOutlet weak var ferruleTextField: UITextField!
     
     var autoCompleteVC: AutocompleteViewController!
     
@@ -63,9 +65,12 @@ extension OnePieceViewController: UITextFieldDelegate {
         if textField == hoseTypeTextField {
             options = ["T1A2","T1A3", "T1B1", "Q-T1A"] //TODO: Get from file
         }
-        //else if textField == someOtherTextField {
-        //    options = ["blah"]
-        //}
+        else if textField == dashSizeTextField {
+            return true
+        }
+        else if textField == ferruleTextField {
+            options = ["AF1","BF2", "CF3"]  //TODO: Get from file
+        }
         
         updateAutoCompleteVC(textField: textField,
                              options: options,
