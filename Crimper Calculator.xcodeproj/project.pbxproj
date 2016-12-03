@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F196E8F1DF367890029F14F /* AutocompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */; };
+		8F196E911DF36D0B0029F14F /* OnePieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */; };
+		EDCF3EA51DB7ED040055B538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF3EA41DB7ED040055B538 /* AppDelegate.swift */; };
+		EDCF3EA71DB7ED040055B538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF3EA61DB7ED040055B538 /* ViewController.swift */; };
+		EDCF3EAA1DB7ED040055B538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF3EA81DB7ED040055B538 /* Main.storyboard */; };
+		EDCF3EAC1DB7ED040055B538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCF3EAB1DB7ED040055B538 /* Assets.xcassets */; };
+		EDCF3EAF1DB7ED040055B538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF3EAD1DB7ED040055B538 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutocompleteViewController.swift; sourceTree = "<group>"; };
+		8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePieceViewController.swift; sourceTree = "<group>"; };
+		EDCF3EA11DB7ED040055B538 /* Crimper Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crimper Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCF3EA41DB7ED040055B538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDCF3EA61DB7ED040055B538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDCF3EA91DB7ED040055B538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDCF3EAB1DB7ED040055B538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCF3EAE1DB7ED040055B538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDCF3EB01DB7ED040055B538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCF3E9E1DB7ED040055B538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCF3E981DB7ED030055B538 = {
+			isa = PBXGroup;
+			children = (
+				EDCF3EA31DB7ED040055B538 /* Crimper Calculator */,
+				EDCF3EA21DB7ED040055B538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCF3EA21DB7ED040055B538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF3EA11DB7ED040055B538 /* Crimper Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCF3EA31DB7ED040055B538 /* Crimper Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF3EA41DB7ED040055B538 /* AppDelegate.swift */,
+				EDCF3EA61DB7ED040055B538 /* ViewController.swift */,
+				EDCF3EA81DB7ED040055B538 /* Main.storyboard */,
+				EDCF3EAB1DB7ED040055B538 /* Assets.xcassets */,
+				EDCF3EAD1DB7ED040055B538 /* LaunchScreen.storyboard */,
+				EDCF3EB01DB7ED040055B538 /* Info.plist */,
+				8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */,
+				8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */,
+			);
+			path = "Crimper Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCF3EA01DB7ED040055B538 /* Crimper Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCF3EB31DB7ED040055B538 /* Build configuration list for PBXNativeTarget "Crimper Calculator" */;
+			buildPhases = (
+				EDCF3E9D1DB7ED040055B538 /* Sources */,
+				EDCF3E9E1DB7ED040055B538 /* Frameworks */,
+				EDCF3E9F1DB7ED040055B538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crimper Calculator";
+			productName = "Crimper Calculator";
+			productReference = EDCF3EA11DB7ED040055B538 /* Crimper Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCF3E991DB7ED030055B538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mona Wright";
+				TargetAttributes = {
+					EDCF3EA01DB7ED040055B538 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 745XCLK28U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDCF3E9C1DB7ED030055B538 /* Build configuration list for PBXProject "Crimper Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCF3E981DB7ED030055B538;
+			productRefGroup = EDCF3EA21DB7ED040055B538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCF3EA01DB7ED040055B538 /* Crimper Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCF3E9F1DB7ED040055B538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF3EAF1DB7ED040055B538 /* LaunchScreen.storyboard in Resources */,
+				EDCF3EAC1DB7ED040055B538 /* Assets.xcassets in Resources */,
+				EDCF3EAA1DB7ED040055B538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCF3E9D1DB7ED040055B538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF3EA71DB7ED040055B538 /* ViewController.swift in Sources */,
+				8F196E8F1DF367890029F14F /* AutocompleteViewController.swift in Sources */,
+				8F196E911DF36D0B0029F14F /* OnePieceViewController.swift in Sources */,
+				EDCF3EA51DB7ED040055B538 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDCF3EA81DB7ED040055B538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCF3EA91DB7ED040055B538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDCF3EAD1DB7ED040055B538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCF3EAE1DB7ED040055B538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCF3EB11DB7ED040055B538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCF3EB21DB7ED040055B538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCF3EB41DB7ED040055B538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 745XCLK28U;
+				INFOPLIST_FILE = "Crimper Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monawright.Crimper-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDCF3EB51DB7ED040055B538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 745XCLK28U;
+				INFOPLIST_FILE = "Crimper Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monawright.Crimper-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCF3E9C1DB7ED030055B538 /* Build configuration list for PBXProject "Crimper Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF3EB11DB7ED040055B538 /* Debug */,
+				EDCF3EB21DB7ED040055B538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCF3EB31DB7ED040055B538 /* Build configuration list for PBXNativeTarget "Crimper Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF3EB41DB7ED040055B538 /* Debug */,
+				EDCF3EB51DB7ED040055B538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCF3E991DB7ED030055B538 /* Project object */;
+}
