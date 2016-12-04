@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8F196E8F1DF367890029F14F /* AutocompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */; };
 		8F196E911DF36D0B0029F14F /* OnePieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */; };
+		8F80D2411DF3BDBC0074FA19 /* OnePieceFitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D2401DF3BDBC0074FA19 /* OnePieceFitting.swift */; };
+		8F80D2431DF3BEBB0074FA19 /* FittingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D2421DF3BEBB0074FA19 /* FittingManager.swift */; };
 		EDCF3EA51DB7ED040055B538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF3EA41DB7ED040055B538 /* AppDelegate.swift */; };
 		EDCF3EA71DB7ED040055B538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF3EA61DB7ED040055B538 /* ViewController.swift */; };
 		EDCF3EAA1DB7ED040055B538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF3EA81DB7ED040055B538 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutocompleteViewController.swift; sourceTree = "<group>"; };
 		8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePieceViewController.swift; sourceTree = "<group>"; };
+		8F80D2401DF3BDBC0074FA19 /* OnePieceFitting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePieceFitting.swift; sourceTree = "<group>"; };
+		8F80D2421DF3BEBB0074FA19 /* FittingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FittingManager.swift; sourceTree = "<group>"; };
 		EDCF3EA11DB7ED040055B538 /* Crimper Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crimper Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCF3EA41DB7ED040055B538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCF3EA61DB7ED040055B538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				EDCF3EB01DB7ED040055B538 /* Info.plist */,
 				8F196E8E1DF367890029F14F /* AutocompleteViewController.swift */,
 				8F196E901DF36D0B0029F14F /* OnePieceViewController.swift */,
+				8F80D2401DF3BDBC0074FA19 /* OnePieceFitting.swift */,
+				8F80D2421DF3BEBB0074FA19 /* FittingManager.swift */,
 			);
 			path = "Crimper Calculator";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 				8F196E8F1DF367890029F14F /* AutocompleteViewController.swift in Sources */,
 				8F196E911DF36D0B0029F14F /* OnePieceViewController.swift in Sources */,
 				EDCF3EA51DB7ED040055B538 /* AppDelegate.swift in Sources */,
+				8F80D2411DF3BDBC0074FA19 /* OnePieceFitting.swift in Sources */,
+				8F80D2431DF3BEBB0074FA19 /* FittingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

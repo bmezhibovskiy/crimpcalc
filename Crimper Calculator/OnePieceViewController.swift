@@ -13,6 +13,10 @@ class OnePieceViewController: UIViewController {
     @IBOutlet weak var hoseTypeTextField: UITextField!
     @IBOutlet weak var dashSizeTextField: UITextField!
     @IBOutlet weak var ferruleTextField: UITextField!
+    @IBOutlet weak var fittingPrefixTextField: UITextField!
+    @IBOutlet weak var crimperNumberTextField: UITextField!
+    @IBOutlet weak var dieColorTextField: UITextField!
+    @IBOutlet weak var crimpODTextField: UITextField!
     
     var autoCompleteVC: AutocompleteViewController!
     
@@ -28,11 +32,16 @@ class OnePieceViewController: UIViewController {
             autoCompleteVC.options = options
             autoCompleteVC.filter = filter
             autoCompleteVC.optionSelectedBlock = { [weak self] (_ selectedOption:String)->Void in
-                textField.text = filter
+                textField.text = selectedOption
                 self?.navigationController!.dismiss(animated: true, completion: {
                     //Do nothing for now
                 })
                 self?.autoCompleteVC = nil
+                
+                if let fitting = FittingManager.sharedInstance.fitting(hoseType: self?.hoseTypeTextField.text, dashSize: self?.dashSizeTextField.text, ferrule: self?.ferruleTextField.text, fittingPrefix: self?.fittingPrefixTextField.text, crimperNumber: self?.crimperNumberTextField.text) {
+                    self?.crimpODTextField.text = fitting.crimpOD
+                    self?.dieColorTextField.text = fitting.dieColor
+                }
             }
             
             autoCompleteVC.modalPresentationStyle = .popover
@@ -63,13 +72,19 @@ extension OnePieceViewController: UITextFieldDelegate {
         var options:[String] = []
         
         if textField == hoseTypeTextField {
-            options = ["T1A2","T1A3", "T1B1", "Q-T1A"] //TODO: Get from file
+            options = FittingManager.sharedInstance.hoseTypes
         }
         else if textField == dashSizeTextField {
-            return true
+            options = FittingManager.sharedInstance.dashSizes
         }
         else if textField == ferruleTextField {
-            options = ["AF1","BF2", "CF3"]  //TODO: Get from file
+            options = FittingManager.sharedInstance.ferrules
+        }
+        else if textField == fittingPrefixTextField {
+            options = FittingManager.sharedInstance.fittingPrefixes
+        }
+        else if textField == crimperNumberTextField {
+            options = FittingManager.sharedInstance.crimperNumbers
         }
         
         updateAutoCompleteVC(textField: textField,
